@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.example.bessie.miwok.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingLeft="9dp"
+        android:text="Numbers"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="numbers"
+        android:id="@+id/numbers"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingLeft="9dp"
+        android:paddingBottom="30dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Family members"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:onClick="family"
+        android:id="@+id/family"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingLeft="9dp"
+        android:paddingBottom="30dp"
+        android:background="@android:color/holo_purple"
+        android:text="Colors"
+        android:textSize="20sp"
+        android:onClick="colors"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:id="@+id/colorss"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingLeft="9dp"
+        android:onClick="phrases"
+        android:textSize="20sp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Phrases"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/phrases"
+        />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
